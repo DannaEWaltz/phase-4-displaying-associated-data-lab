@@ -2,7 +2,7 @@ repo_name: DannaEWaltz/phase-4-displaying-associated-data-lab
 report_id: c5d0885ed81f1b34d9c04f64c2b45ef6
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-02T05:55:28+00:00'
+timestamp: '2024-02-29T19:50:46+00:00'
 requested_by: ihollander
 provider: github
 branch: main
@@ -165,6 +165,13 @@ tools:
   detection_source: Gemfile
   last_updated_by: ihollander
   last_updated_on: 2021-05-10 11:43:03.000000000 Z
+  vulnerabilities:
+  - name: Rack CORS Middleware has Insecure File Permissions
+    cve_id: CVE-2024-27456
+    cve_url: https://github.com/advisories/GHSA-785g-282q-pwvx
+    detected_date: Feb 27
+    severity: moderate
+    first_patched: 
 - name: rspec-json_expectations
   description: Set of matchers and helpers to allow you test your APIs responses like
     a pro
